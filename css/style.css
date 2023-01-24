@@ -231,3 +231,36 @@ main {
         margin: 10vh auto;
     }
 }
+.alterar {
+    margin: 2px;
+    width: 200px;
+    
+  
+
+}
+
+.botoes {
+   position: relative;
+   right: -10%;
+   bottom: 1%;
+   display: inline-block;
+   z-index: 5;
+   
+   
+}
+
+
+.botoes button{
+    background-color: rgba(0,0,0,0.6);
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.botoes button:hover{
+    background-color: rgba(212, 75, 75, 0.849);
+}
